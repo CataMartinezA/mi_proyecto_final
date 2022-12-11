@@ -1,0 +1,168 @@
+h1 {
+    font-family: "Arial Black";
+    color:aquamarine; 
+    font-size: 100px;
+    padding: 1px;
+    margin: auto;
+}
+h2 {
+    font-family: "Segoe UI Variable Small Semibol";
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+}
+a {
+    font-family: "Brush Script MT";
+    margin: 210px;
+    padding: 1px;
+    font-size: 40px;
+}
+h3 {
+    font-family: "Brush Script MT";
+    background-color: aquamarine;
+    margin: auto;
+    text-align: center;
+    padding: 1px;
+    font: bold;
+    font-size: 40px;
+}
+h4 {
+    text-align: left;
+    font-size: 30px;
+}
+button {
+    font-family: "Segoe UI Variable Small Semibol";
+    background-color: aquamarine;
+    color: gray;
+    font-size: 15px;
+    width: 95px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 20px;
+    position: center;
+    bottom: 200px;
+    right: 200px;
+}
+.boton1 {
+    position: absolute;
+    top: 0;
+    bottom: 200px;
+    right: 0;
+    left: 1200px;
+
+}
+.barra {
+    position: relative;
+    top: 100px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.boton2 {
+    position: absolute;
+    top: 1450px;
+    bottom: 0;
+    right: 0;
+    left: 260px;
+}
+.registro {
+    position: absolute;
+    top: 1000px;
+    bottom: 0;
+    right: 0;
+    left: 700px;
+}
+.boton3 {
+    position: absolute;
+    top: 1450px;
+    bottom: 0;
+    right: 0;
+    left: 1100px;
+}
+.texto1 {
+    position: absolute;
+    top: 1800px;
+    bottom: 0;
+    right: 0;
+    left: 800px;
+}
+.boton4 {
+    position: absolute;
+    top: 2150px;
+    bottom: 0;
+    right: 0;
+    left: 1100px;
+}
+.texto2 {
+    position: absolute;
+    top: 2550px;
+    bottom: 0;
+    right: 0;
+    left: 800px;
+}
+.boton5 {
+    position: absolute;
+    top: 2850px;
+    bottom: 0;
+    right: 0;
+    left: 1100px;
+}
+img {
+    width: 400px;
+    height: 400px;
+    margin: 120px;
+    position: relative;
+}
+@media(min-width:480px){
+    img {
+        flex-direction: column;
+            }
+    h1 {
+         font-family: "Forte";
+         color: green; 
+         font-size: 200px;
+        }
+    h2 {
+        font-family: "Times New Roman";
+        font-size: 60px;
+        }
+}
+@media(min-width:768px){
+    button {
+        font-family: "Arial";
+        background-color: red;
+        color: black;
+        font-size: 40px; 
+         }
+    h3 {
+        font-family: "Calibri";
+        background-color: yellow;
+    }
+    h4 {
+        text-align: center;
+        font-size: 10px;   
+    }
+}
+@media(min-width:1024px){
+    .barra {
+        position:absolute;
+        top: 500px;
+        bottom: 0;
+        right: 0;
+        left: 100px;
+    }
+    .boton2 {
+        position: absolute;
+        top: 3000px;
+        bottom: 0;
+        right: 300px;
+        left: 0;
+    }
+    .registro {
+        position: absolute;
+        top: 0;
+        bottom: 2000px;
+        right: 200px;
+        left: 0;
+    }
+}
